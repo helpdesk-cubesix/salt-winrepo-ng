@@ -1,7 +1,7 @@
-{% set source_path = 'https://cdn.zabbix.com/zabbix/binaries/stable/7.0/latest/zabbix_agent-7.0-latest-windows-amd64-openssl.msi' %}
+{% set source_path = 'https://cdn.zabbix.com/zabbix/binaries/stable/7.0/7.0.20/zabbix_agent-7.0.20-windows-amd64-openssl.msi' %}
 
 zabbix-agent:
-  'latest':
+  '7.0.20':
     full_name: 'Zabbix Agent (64-bit)'
     installer: '{{source_path}}'
     uninstaller: '{{source_path}}'
